@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "apiVersion": 1,
+  "id": "echo-dot-led-ring",
+  "name": "Echo Dot LED Ring",
+  "version": "0.1.0",
+  "minAndroidSdk": 24,
+  "entryClass": "me.jxl.kiosk.plugins.dotring.DotRingPlugin",
+  "description": "Shows wake-word, voice interaction and mute status on the Echo Dot 2 (biscuit) LED ring.",
+  "author": "Peter Meiser",
+  "license": "Apache-2.0",
+  "capabilities": [
+    "host.read"
+  ],
+  "settings": [],
+  "commands": []
+}
